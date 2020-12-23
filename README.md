@@ -2,6 +2,8 @@
 
 Cache Warmstarter design by Aril.
 
+It is 128B 2-way set associative cache with 16B line size.
+
 ## Files Included
 The code is split in 2 files, Main body and the functions file.
 ```bash
