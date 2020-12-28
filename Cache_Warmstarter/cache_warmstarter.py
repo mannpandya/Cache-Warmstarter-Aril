@@ -120,10 +120,7 @@ if __name__ == "__main__":
     tagB_lines.append(dtagB[val] + "\n")
     dataA_lines.append(dataA[val] + "\n")
     dataB_lines.append(dataB[val] + "\n")
-  # tagA_lines = [dtagA[0], "\n", dtagA[1], "\n", dtagA[2], "\n", dtagA[3], "\n"]
-  # tagB_lines = [dtagB[0], "\n", dtagB[1], "\n", dtagB[2], "\n", dtagB[3], "\n"]
-  # dataA_lines = [dataA[0], "\n", dataA[1], "\n", dataA[2], "\n", dataA[3], "\n"]
-  # dataB_lines = [dataB[0], "\n", dataB[1], "\n", dataB[2], "\n", dataB[3], "\n"]
+
 
   # Write into the ".hex" files.
   tagA_write.writelines(tagA_lines)
