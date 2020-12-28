@@ -110,6 +110,11 @@ if __name__ == "__main__":
 
     local_cnt = local_cnt + 1
 
+  tagA_lines = []
+  tagB_lines = []
+  dataA_lines = []
+  dataB_lines = []
+
   for val in range(cache_index):
     tagA_lines.append(dtagA[val] + "\n")
     tagB_lines.append(dtagB[val] + "\n")
