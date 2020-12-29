@@ -15,6 +15,6 @@ The output hex files are generated upon running the "cache_warmstarter.py"
 
 ## Run
 ```bash
-python cache_warmstarter.py 2
+python cache_warmstarter.py --seed 2 --ways 2 --index 4
 ```
-The code runs with a seed value input from the Command Line as an argument.
+The code runs with a seed value, ways supported and the index (calculated from the given cache specifications) input from the Command Line as an argument.
