@@ -84,7 +84,8 @@ if __name__ == "__main__":
         least_way_used_per_idx[idx_val] = 0
 
     local_cnt = local_cnt + 1
-
+  
+  # Mapping range from A to Z for file creation
   if 0 < way_supported <= 26:
     count_tag = 0
     for alpha in string.ascii_uppercase[:way_supported]:
